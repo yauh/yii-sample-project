@@ -59,7 +59,7 @@
 
             <!-- A generation process consists of one or more build tasks and of (optional) enrich sources -->
 
-            <enrich base="${basedir}/build">
+            <enrich base="${basedir}/../build">
                 <!-- @base - (Base-)Directory of datafiles used for enrich process -->
 
                 <!-- add build information - this should always be enabled -->
@@ -67,7 +67,7 @@
 
                 <!-- add phploc output -->
                 <source type="phploc">
-                    <file name="../../build/logs/phploc.xml" />
+                    <file name="logs/phploc.xml" />
                 </source>
 
                 <!-- add git vcs information -->
@@ -90,7 +90,7 @@
 
                 <!-- PHPMessDetector -->
                 <source type="pmd">
-                    <file name="../../build/logs/pmd.xml" />
+                    <file name="logs/pmd.xml" />
                 </source>
             </enrich>
 
