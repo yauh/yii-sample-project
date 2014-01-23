@@ -31,12 +31,19 @@
  -->
  <rule ref="PEAR"/>
 
- <!--
-    Include all sniffs in an external standard directory. Note
-    that we have to specify the full path to the standard's
-    directory because it does not exist inside the PHP_CodeSniffer
-    install directory.
- -->
+ <rule ref="PEAR.WhiteSpace.ScopeIndent">
+     <properties>
+         <property name="indent" value="2"/>
+     </properties>
+ </rule>
+
+
+    <!--
+       Include all sniffs in an external standard directory. Note
+       that we have to specify the full path to the standard's
+       directory because it does not exist inside the PHP_CodeSniffer
+       install directory.
+    -->
  <!--
  <rule ref="/home/username/standards/mystandard"/>
  -->
