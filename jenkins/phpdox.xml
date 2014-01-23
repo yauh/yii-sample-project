@@ -67,7 +67,7 @@
 
                 <!-- add phploc output -->
                 <source type="phploc">
-                    <file name="logs/phploc.xml" />
+                    <file name="../logs/phploc.xml" />
                 </source>
 
                 <!-- add git vcs information -->
@@ -90,7 +90,7 @@
 
                 <!-- PHPMessDetector -->
                 <source type="pmd">
-                    <file name="logs/pmd.xml" />
+                    <file name="../logs/pmd.xml" />
                 </source>
             </enrich>
 
