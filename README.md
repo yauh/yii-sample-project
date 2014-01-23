@@ -1,6 +1,6 @@
 # Yii-Sample-Project
 
-This is a simple example project with the PHP Yii-Framework. It is used as a sample project in the PHP-CI bootstrap.
+This is a simple example project with the PHP Yii-Framework. It is used as a sample project in the PHP-CI bootstrap. Some of the settings from [YiiBoilerplate](https://github.com/clevertech/YiiBoilerplate) are used in the config files.
 
 Notes
 =====
@@ -43,4 +43,6 @@ Make sure to configure the location of `$yiic` properly:
 
 ## Other Resources
 
-If you work with Yii make sure to check out the [YiiBoilerplate](https://github.com/clevertech/YiiBoilerplate)
+If you work with Yii make sure to check out the [YiiBoilerplate](https://github.com/clevertech/YiiBoilerplate). Really.
+
+Also the [PHP QA Tools](http://phpqatools.org/) is a good place to start improving your Yii projects.
