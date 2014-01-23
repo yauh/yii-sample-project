@@ -40,3 +40,7 @@ And if you should use yiic let's not forget it either
 Make sure to configure the location of `$yiic` properly:
 
 ```$yiic='/var/www/yii/framework/yiic.php';```
+
+## Other Resources
+
+If you work with Yii make sure to check out the [YiiBoilerplate](https://github.com/clevertech/YiiBoilerplate)
