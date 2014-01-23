@@ -19,15 +19,15 @@ Alternatively you can copy the yii folder to where your webapp expects it on the
 
 First file
 
-` ./my-shiny-yii-project/index.php`
+```./my-shiny-yii-project/index.php```
 
-Make sure to configure the location of `$yii` properly:
+Make sure to configure the location of ```$yii``` properly:
 
 ```$yii='/var/www/yii/framework/yii.php';```
 
 Second comes the test-index file
 
-` ./my-shiny-yii-project/index-test.php`
+`./my-shiny-yii-project/index-test.php`
 
 Make sure to configure the location of `$yiit` properly:
 
