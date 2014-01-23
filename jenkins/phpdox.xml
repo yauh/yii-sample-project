@@ -59,7 +59,7 @@
 
             <!-- A generation process consists of one or more build tasks and of (optional) enrich sources -->
 
-            <enrich base="${basedir}/../">
+            <enrich base="${basedir}/../build">
                 <!-- @base - (Base-)Directory of datafiles used for enrich process -->
 
                 <!-- add build information - this should always be enabled -->
